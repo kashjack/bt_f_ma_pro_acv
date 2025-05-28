@@ -96,14 +96,19 @@ class _FabaPageState extends BaseWidgetState<FabaPage>
     return Stack(
       children: [
         Column(
-          mainAxisAlignment: MainAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             this.initTopView(S.current.FABA),
-            this._buildCarView(),
-            initFabaSlider(faderSlideItem, true),
-            initFabaSlider(balanceSlideItem, false),
+            _buildCarView(),
+            Column(
+              children: [
+                initFabaSlider(faderSlideItem, true),
+                initFabaSlider(balanceSlideItem, false),
+              ],
+            ),
             //功能被取消
-            this._initBottomView(),
+            _initBottomView(),
+            SizedBox()
           ],
         ),
         this._buildSettingView(),

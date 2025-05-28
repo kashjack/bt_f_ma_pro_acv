@@ -7,6 +7,7 @@
  * @FilePath: /CarBlueTooth/lib/pages/set/widget/FabaWidget.dart
  */
 import 'package:flutter/material.dart';
+import 'package:flutter_app/helper/config/config.dart';
 import 'package:flutter_app/helper/config/size.dart';
 
 typedef _Callback = void Function(int id);
@@ -69,19 +70,25 @@ class _RadioBtnWrapState extends State<RadioBtnWrap> {
                     child: Text(
                       text,
                       style: TextStyle(
+                        color: ((!_onlyButtonIds!.contains(id)) &&
+                                (_currentId == id))
+                            ? Colors.white
+                            : JKColor.ff767676,
                         fontFamily: 'Mont',
                       ),
                     ),
                     style: ButtonStyle(
-                        backgroundColor:
-                            MaterialStateProperty.all(Colors.transparent),
-                        shadowColor:
-                            MaterialStateProperty.all(Colors.transparent),
-                        side: MaterialStateProperty.all(BorderSide(
+                      backgroundColor:
+                          WidgetStateProperty.all(Colors.transparent),
+                      shadowColor: WidgetStateProperty.all(Colors.transparent),
+                      side: WidgetStateProperty.all(
+                        BorderSide(
                             color: ((!_onlyButtonIds!.contains(id)) &&
                                     (_currentId == id))
-                                ? Color(0xFFF01140)
-                                : Color(0xFF767676)))),
+                                ? JKColor.main
+                                : JKColor.ff767676),
+                      ),
+                    ),
                   ),
                 )))
             .values

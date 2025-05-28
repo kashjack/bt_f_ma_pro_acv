@@ -869,14 +869,15 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
         style: TextStyle(
           fontFamily: 'Mont',
           fontWeight: FontWeight.bold,
+          color: Colors.white,
         ),
       ),
       style: ButtonStyle(
-          backgroundColor: MaterialStateProperty.all(Colors.transparent),
-          shadowColor: MaterialStateProperty.all(Colors.transparent),
-          side: MaterialStateProperty.all(
+          backgroundColor: WidgetStateProperty.all(Colors.transparent),
+          shadowColor: WidgetStateProperty.all(Colors.transparent),
+          side: WidgetStateProperty.all(
               BorderSide(width: 1, color: Color(0xFFFFFFFF))),
-          shape: MaterialStateProperty.all(
+          shape: WidgetStateProperty.all(
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)))),
     );
   }
