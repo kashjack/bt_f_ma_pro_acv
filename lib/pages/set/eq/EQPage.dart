@@ -343,18 +343,15 @@ class _EQPageState extends BaseWidgetState<EQPage>
                 "-9db",
                 style: TextStyle(
                   color: Colors.white,
-                  fontFamily: 'Mont',
                 ),
               ),
               Text("0db",
                   style: TextStyle(
                     color: Colors.white,
-                    fontFamily: 'Mont',
                   )),
               Text("9db",
                   style: TextStyle(
                     color: Colors.white,
-                    fontFamily: 'Mont',
                   )),
             ],
           ),
@@ -387,18 +384,15 @@ class _EQPageState extends BaseWidgetState<EQPage>
                 "-9db",
                 style: TextStyle(
                   color: Colors.white,
-                  fontFamily: 'Mont',
                 ),
               ),
               Text("0db",
                   style: TextStyle(
                     color: Colors.white,
-                    fontFamily: 'Mont',
                   )),
               Text("9db",
                   style: TextStyle(
                     color: Colors.white,
-                    fontFamily: 'Mont',
                   )),
             ],
           ),
@@ -430,7 +424,6 @@ class _EQPageState extends BaseWidgetState<EQPage>
               item.leftText,
               style: TextStyle(
                 color: Colors.white,
-                fontFamily: 'Mont',
               ),
               textAlign: TextAlign.center,
             ),
@@ -463,7 +456,6 @@ class _EQPageState extends BaseWidgetState<EQPage>
               "${JKSetting.instance.eqLongDbs[item.id]}",
               style: TextStyle(
                 color: Colors.white,
-                fontFamily: 'Mont',
               ),
               textAlign: TextAlign.center,
             ),
@@ -484,7 +476,6 @@ class _EQPageState extends BaseWidgetState<EQPage>
               item.leftText,
               style: TextStyle(
                 color: Colors.white,
-                fontFamily: 'Mont',
               ),
               textAlign: TextAlign.center,
             ),
@@ -512,7 +503,6 @@ class _EQPageState extends BaseWidgetState<EQPage>
               "${JKSetting.instance.eqLongDbs[item.id]}",
               style: TextStyle(
                 color: Colors.white,
-                fontFamily: 'Mont',
               ),
               textAlign: TextAlign.center,
             ),
@@ -563,7 +553,6 @@ class _EQPageState extends BaseWidgetState<EQPage>
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 14,
-                fontFamily: 'Mont',
               ),
             ),
             style: ButtonStyle(
@@ -583,7 +572,6 @@ class _EQPageState extends BaseWidgetState<EQPage>
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 14,
-                fontFamily: 'Mont',
               ),
             ),
             style: ButtonStyle(
@@ -636,7 +624,6 @@ class _EQPageState extends BaseWidgetState<EQPage>
                         style: TextStyle(
                           fontSize: 14,
                           color: Colors.white,
-                          fontFamily: 'Mont',
                         ),
                       ),
                       SizedBox(height: 10),
@@ -692,7 +679,6 @@ class _EQPageState extends BaseWidgetState<EQPage>
               style: TextStyle(
                 fontSize: 12,
                 color: Colors.white,
-                fontFamily: 'Mont',
               ),
             )
           ],

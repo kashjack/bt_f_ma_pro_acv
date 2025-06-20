@@ -103,7 +103,6 @@ class _PlayPageState extends BaseWidgetState<PlayPage> {
               child: Text(
                 string,
                 style: TextStyle(
-                  fontFamily: 'Mont',
                   fontSize: 14,
                   color:
                       isStateChecked(string) ? Colors.white : Color(0xff8b8b8b),
@@ -131,7 +130,6 @@ class _PlayPageState extends BaseWidgetState<PlayPage> {
               child: Text(
                 string,
                 style: TextStyle(
-                  fontFamily: 'Mont',
                   fontSize: 14,
                   color: Color(0xff8b8b8b),
                 ),
@@ -177,7 +175,6 @@ class _PlayPageState extends BaseWidgetState<PlayPage> {
             '${JKSetting.instance.musicName}\n${JKSetting.instance.albumName}\n${JKSetting.instance.artistName}',
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontFamily: 'Mont',
               color: Colors.white,
               fontSize: 20,
             ),
@@ -206,7 +203,6 @@ class _PlayPageState extends BaseWidgetState<PlayPage> {
         '${JKSetting.instance.musicName}\n${JKSetting.instance.albumName}\n${JKSetting.instance.artistName}',
         textAlign: TextAlign.center,
         style: TextStyle(
-          fontFamily: 'Mont',
           color: Colors.white,
           fontSize: 10,
         ),
@@ -252,7 +248,6 @@ class _PlayPageState extends BaseWidgetState<PlayPage> {
             child: Text(
               "${JKSetting.instance.nowMinute.toTimeString()}:${JKSetting.instance.nowSecond.toTimeString()}",
               style: TextStyle(
-                  fontFamily: 'Mont',
                   color: Colors.white,
                   fontSize: 12,
                   fontWeight: FontWeight.bold),
@@ -293,7 +288,6 @@ class _PlayPageState extends BaseWidgetState<PlayPage> {
             child: Text(
               "${JKSetting.instance.totalMinute.toTimeString()}:${JKSetting.instance.totalSecond.toTimeString()}",
               style: TextStyle(
-                  fontFamily: 'Mont',
                   color: Colors.white,
                   fontSize: 12,
                   fontWeight: FontWeight.bold),

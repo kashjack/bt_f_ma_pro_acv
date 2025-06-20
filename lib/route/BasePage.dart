@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_app/generated/l10n.dart';
 import 'package:flutter_app/bluetooth/device_manager.dart';
 import 'package:flutter_app/helper/config/image.dart';
@@ -10,6 +11,7 @@ import 'package:flutter_app/pages/caraux/CarAuxPage.dart';
 import 'package:flutter_app/pages/home/HomePage.dart';
 import 'package:flutter_app/pages/play/PlayPage.dart';
 import 'package:flutter_app/pages/radio/RadioPage.dart';
+import 'package:flutter_app/route/status_bar_page.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'dart:ui' as ui show window;
@@ -51,8 +53,10 @@ abstract class BaseWidgetState<T extends BaseWidget> extends State<T>
   @override
   Widget build(BuildContext context) {
     this.setParameters();
-    return Scaffold(
-        // appBar: appBarWidget!, //顶部导航栏
+    return StatusBarPage(
+      child: Scaffold(
+        // 关键 3: 允许内容延伸到状态栏后面
+        extendBodyBehindAppBar: true,
         endDrawer: endDrawerWidget, //右滑菜单栏
         body: WillPopScope(
           child: Stack(
@@ -99,7 +103,9 @@ abstract class BaseWidgetState<T extends BaseWidget> extends State<T>
             }
             return true;
           },
-        ));
+        ),
+      ),
+    );
   }
 
   setParameters() {
@@ -192,7 +198,6 @@ abstract class BaseWidgetState<T extends BaseWidget> extends State<T>
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 17,
-                    fontFamily: 'Mont',
                     fontWeight: FontWeight.w800,
                     fontStyle: FontStyle.italic,
                   ),
@@ -223,7 +228,6 @@ abstract class BaseWidgetState<T extends BaseWidget> extends State<T>
                 Text(
                   S.current.Connect,
                   style: TextStyle(
-                    fontFamily: 'Mont',
                     color: Colors.white,
                     fontSize: 12,
                   ),

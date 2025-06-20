@@ -92,7 +92,6 @@ class _RadioPageState extends BaseWidgetState<RadioPage> {
               child: Text(
                 string,
                 style: TextStyle(
-                  fontFamily: 'Mont',
                   fontSize: 14,
                   color:
                       isStateChecked(string) ? Colors.white : Color(0xff8b8b8b),
@@ -204,7 +203,6 @@ class _RadioPageState extends BaseWidgetState<RadioPage> {
                 child: Text(
                   S.current.STEREO,
                   style: TextStyle(
-                    fontFamily: 'Mont',
                     fontSize: 14,
                     color: Color(0xff8b8b8b),
                   ),
@@ -232,7 +230,6 @@ class _RadioPageState extends BaseWidgetState<RadioPage> {
                 child: Text(
                   S.current.BAND,
                   style: TextStyle(
-                    fontFamily: 'Mont',
                     fontSize: 14,
                     color: Color(0xff8b8b8b),
                   ),
@@ -263,7 +260,6 @@ class _RadioPageState extends BaseWidgetState<RadioPage> {
                 child: Text(
                   S.current.INT,
                   style: TextStyle(
-                    fontFamily: 'Mont',
                     fontSize: 14,
                     color: Color(0xff8b8b8b),
                   ),
@@ -292,7 +288,6 @@ class _RadioPageState extends BaseWidgetState<RadioPage> {
                 child: Text(
                   S.current.LOUD,
                   style: TextStyle(
-                    fontFamily: 'Mont',
                     fontSize: 14,
                     color: Color(0xff8b8b8b),
                   ),
@@ -416,7 +411,6 @@ class _RadioPageState extends BaseWidgetState<RadioPage> {
                   Text(
                     '${JKSetting.instance.channelPages[JKSetting.instance.channelIndex - 1]}',
                     style: TextStyle(
-                      fontFamily: 'Mont',
                       color: Colors.white,
                       fontSize: 18,
                     ),
@@ -445,7 +439,6 @@ class _RadioPageState extends BaseWidgetState<RadioPage> {
               style: TextStyle(
                   color: Colors.white,
                   fontSize: 55,
-                  fontFamily: 'Mont',
                   fontWeight: FontWeight.bold),
             ),
           ),
@@ -456,7 +449,6 @@ class _RadioPageState extends BaseWidgetState<RadioPage> {
             child: Text(
               'MHZ',
               style: TextStyle(
-                fontFamily: 'Mont',
                 color: Colors.white,
               ),
             ),
@@ -490,7 +482,6 @@ class _RadioPageState extends BaseWidgetState<RadioPage> {
                         Text(
                           '${index + 1}',
                           style: TextStyle(
-                            fontFamily: 'Mont',
                             fontSize: 17,
                             color: Color(0xFF777777),
                           ),
@@ -503,7 +494,6 @@ class _RadioPageState extends BaseWidgetState<RadioPage> {
                           style: TextStyle(
                             fontSize: 23,
                             color: Colors.white,
-                            fontFamily: 'Mont',
                           ),
                         ),
                       ],

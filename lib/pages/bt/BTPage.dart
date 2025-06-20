@@ -87,7 +87,6 @@ class _BtPageState extends BaseWidgetState<BtPage> {
               child: Text(
                 string,
                 style: TextStyle(
-                  fontFamily: 'Mont',
                   fontSize: 14,
                   color:
                       isStateChecked(string) ? Colors.white : Color(0xff8b8b8b),
@@ -117,7 +116,6 @@ class _BtPageState extends BaseWidgetState<BtPage> {
                 style: TextStyle(
                   fontSize: 14,
                   color: Color(0xff8b8b8b),
-                  fontFamily: 'Mont',
                 ),
               ),
               style: OutlinedButton.styleFrom(
@@ -161,7 +159,6 @@ class _BtPageState extends BaseWidgetState<BtPage> {
             '${JKSetting.instance.musicName}\n${JKSetting.instance.albumName}\n${JKSetting.instance.artistName}',
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontFamily: 'Mont',
               color: Colors.white,
               fontSize: 20,
             ),
@@ -190,7 +187,6 @@ class _BtPageState extends BaseWidgetState<BtPage> {
         '${JKSetting.instance.musicName}\n${JKSetting.instance.albumName}\n${JKSetting.instance.artistName}',
         textAlign: TextAlign.center,
         style: TextStyle(
-          fontFamily: 'Mont',
           color: Colors.white,
           fontSize: 10,
         ),

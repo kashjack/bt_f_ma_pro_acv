@@ -241,7 +241,6 @@ class _XOverPageState extends BaseWidgetState<XOverPage> {
                       style: TextStyle(
                         color: Colors.white,
                         // fontSize: 11,
-                        fontFamily: 'Mont',
                       ),
                     ),
                     Container(
@@ -388,7 +387,6 @@ class _XOverPageState extends BaseWidgetState<XOverPage> {
         S.current.Reset,
         style: TextStyle(
           fontSize: 12,
-          fontFamily: 'Mont',
           color: Colors.white,
         ),
       ),
@@ -591,7 +589,6 @@ class _XOverPageState extends BaseWidgetState<XOverPage> {
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 11,
-                fontFamily: 'Mont',
               ),
             ),
           ),

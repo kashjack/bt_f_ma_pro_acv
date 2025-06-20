@@ -120,7 +120,6 @@ class _GPSPageState extends BaseWidgetState<GPSPage> {
       child: Text(
         S.current.openMap_msg,
         style: TextStyle(
-          fontFamily: 'Mont',
           color: Colors.white,
           fontSize: 17,
         ),
@@ -148,7 +147,6 @@ class _GPSPageState extends BaseWidgetState<GPSPage> {
             text,
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontFamily: 'Mont',
               color: Colors.white,
               fontSize: 15,
             ),
@@ -178,7 +176,6 @@ class _GPSPageState extends BaseWidgetState<GPSPage> {
             S.current.CANCEL,
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontFamily: 'Mont',
               color: Colors.white,
               fontSize: 15,
             ),

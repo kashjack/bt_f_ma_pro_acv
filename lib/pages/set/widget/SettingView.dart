@@ -117,7 +117,6 @@ class SettingState extends State<SettingView> {
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: widget.selIndex == index ? JKColor.main : Colors.white,
-                  fontFamily: 'Mont',
                   fontSize: 10,
                 ),
               ),

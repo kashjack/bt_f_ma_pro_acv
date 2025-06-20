@@ -137,7 +137,6 @@ class _RGBPageState extends BaseWidgetState<RGBPage> {
               colorType,
               style: TextStyle(
                   color: Colors.white,
-                  fontFamily: 'Mont',
                   fontStyle: FontStyle.italic,
                   fontSize: 18,
                   fontWeight: FontWeight.bold),
@@ -235,7 +234,6 @@ class _RGBPageState extends BaseWidgetState<RGBPage> {
             S.current.Manual,
             style: TextStyle(
               color: isAuto ? Colors.white : Color(0xFFF01140),
-              fontFamily: 'Mont',
               fontSize: 15,
             ),
           ),
@@ -274,7 +272,6 @@ class _RGBPageState extends BaseWidgetState<RGBPage> {
             S.current.Auto,
             style: TextStyle(
               color: isAuto ? Color(0xFFF01140) : Colors.white,
-              fontFamily: 'Mont',
               fontSize: 15,
             ),
           ),

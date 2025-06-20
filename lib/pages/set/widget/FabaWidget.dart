@@ -74,7 +74,6 @@ class _RadioBtnWrapState extends State<RadioBtnWrap> {
                                 (_currentId == id))
                             ? Colors.white
                             : JKColor.ff767676,
-                        fontFamily: 'Mont',
                       ),
                     ),
                     style: ButtonStyle(

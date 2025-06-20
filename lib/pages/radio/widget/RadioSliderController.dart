@@ -92,7 +92,6 @@ class RadioSliderControllerState extends State<RadioSliderController> {
                     .map((str) => Text(
                           str,
                           style: TextStyle(
-                            fontFamily: 'Mont',
                             color: JKColor.main,
                             fontSize: 14,
                           ),
@@ -201,7 +200,6 @@ class RadioSliderControllerState extends State<RadioSliderController> {
                     .map((str) => Text(
                           str,
                           style: TextStyle(
-                            fontFamily: 'Mont',
                             color: JKColor.main,
                             fontSize: 14,
                           ),

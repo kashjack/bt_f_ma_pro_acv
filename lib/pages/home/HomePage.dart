@@ -19,6 +19,7 @@ import 'package:flutter_app/pages/play/PlayPage.dart';
 import 'package:flutter_app/pages/radio/RadioPage.dart';
 import 'package:flutter_app/pages/rgb/RGBPage.dart';
 import 'package:flutter_app/route/BasePage.dart';
+import 'package:flutter_app/route/status_bar_page.dart';
 import 'package:flutter_blue_plus/flutter_blue_plus.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 
@@ -119,18 +120,20 @@ class _HomePageState extends BaseWidgetState<HomePage> {
     this.setParameters();
     int quarterTurns = JKSize.instance.isPortrait ? 0 : 3;
     if (_isPlayed) {
-      return Scaffold(
-        // appBar: appBarWidget, //顶部导航栏
-        endDrawer: endDrawerWidget, //右滑菜单栏
-        body: Platform.isIOS
-            ? this._buildContentView()
-            : WillPopScope(
-                onWillPop: () async {
-                  AndroidBackTop.backDeskTop(); //设置为返回不退出app
-                  return false; //一定要return false
-                },
-                child: this._buildContentView(),
-              ),
+      return StatusBarPage(
+        child: Scaffold(
+          // appBar: appBarWidget, //顶部导航栏
+          endDrawer: endDrawerWidget, //右滑菜单栏
+          body: Platform.isIOS
+              ? this._buildContentView()
+              : WillPopScope(
+                  onWillPop: () async {
+                    AndroidBackTop.backDeskTop(); //设置为返回不退出app
+                    return false; //一定要return false
+                  },
+                  child: this._buildContentView(),
+                ),
+        ),
       );
     }
 
@@ -225,7 +228,6 @@ class _HomePageState extends BaseWidgetState<HomePage> {
                         style: TextStyle(
                           color: JKColor.main,
                           fontSize: 28,
-                          fontFamily: 'Mont',
                           fontWeight: FontWeight.w600,
                         ),
                       ),
@@ -239,7 +241,6 @@ class _HomePageState extends BaseWidgetState<HomePage> {
             'v ' + _version,
             style: TextStyle(
               color: JKColor.ff767676,
-              fontFamily: 'Mont',
             ),
           )
         ],
@@ -283,7 +284,6 @@ class _HomePageState extends BaseWidgetState<HomePage> {
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 12,
-                          fontFamily: 'Mont',
                         ),
                       ),
                     ],

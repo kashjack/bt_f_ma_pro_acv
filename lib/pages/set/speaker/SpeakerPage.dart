@@ -244,7 +244,6 @@ class _SpeakerPageState extends BaseWidgetState<SpeakerPage>
               Text(
                 type,
                 style: TextStyle(
-                  fontFamily: 'Mont',
                   color: Colors.white,
                   fontSize: 14,
                 ),
@@ -281,7 +280,6 @@ class _SpeakerPageState extends BaseWidgetState<SpeakerPage>
               Text(
                 type,
                 style: TextStyle(
-                  fontFamily: 'Mont',
                   color: Colors.white,
                   fontSize: 14,
                 ),
@@ -320,7 +318,6 @@ class _SpeakerPageState extends BaseWidgetState<SpeakerPage>
                   Text(
                     S.current.L__WOOFER,
                     style: TextStyle(
-                      fontFamily: 'Mont',
                       color: Colors.white,
                       fontSize: 14,
                     ),
@@ -338,7 +335,6 @@ class _SpeakerPageState extends BaseWidgetState<SpeakerPage>
                   Text(
                     S.current.R__WOOFER,
                     style: TextStyle(
-                      fontFamily: 'Mont',
                       color: Colors.white,
                       fontSize: 14,
                     ),
@@ -369,7 +365,6 @@ class _SpeakerPageState extends BaseWidgetState<SpeakerPage>
                 style: TextStyle(
                   fontSize: 14,
                   color: Colors.white,
-                  fontFamily: 'Mont',
                 ),
               ),
               style: OutlinedButton.styleFrom(

@@ -73,7 +73,6 @@ class _CarAuxPageState extends BaseWidgetState<CarAuxPage> {
               child: Text(
                 string,
                 style: TextStyle(
-                  fontFamily: 'Mont',
                   fontSize: 14,
                   color:
                       isStateChecked(string) ? Colors.white : Color(0xff8b8b8b),
@@ -103,7 +102,6 @@ class _CarAuxPageState extends BaseWidgetState<CarAuxPage> {
                 style: TextStyle(
                   fontSize: 14,
                   color: Color(0xff8b8b8b),
-                  fontFamily: 'Mont',
                 ),
               ),
               style: OutlinedButton.styleFrom(

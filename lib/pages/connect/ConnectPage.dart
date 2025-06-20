@@ -72,7 +72,6 @@ class _ConnectPageState extends BaseWidgetState<ConnectPage> {
             style: TextStyle(
               color: Colors.white,
               fontSize: 17,
-              fontFamily: 'Mont',
             ),
           ),
           InkWell(
@@ -100,7 +99,6 @@ class _ConnectPageState extends BaseWidgetState<ConnectPage> {
                   Text(
                     S.current.Connect,
                     style: TextStyle(
-                      fontFamily: 'Mont',
                       color: Colors.white,
                       fontSize: 12,
                     ),
@@ -178,7 +176,6 @@ class _ConnectPageState extends BaseWidgetState<ConnectPage> {
       child: Text(
         title,
         style: TextStyle(
-          fontFamily: 'Mont',
           color: Colors.white60,
           fontSize: 20,
         ),
@@ -210,7 +207,6 @@ class _ConnectPageState extends BaseWidgetState<ConnectPage> {
         child: Text(
           device.platformName,
           style: TextStyle(
-            fontFamily: 'Mont',
             color: Colors.white,
           ),
         ),

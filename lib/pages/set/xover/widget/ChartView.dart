@@ -368,7 +368,6 @@ class LineChartWidget extends CustomPainter {
         style: TextStyle(
           color: Colors.white,
           fontSize: fontSize,
-          fontFamily: 'Mont',
         ),
       ),
     );

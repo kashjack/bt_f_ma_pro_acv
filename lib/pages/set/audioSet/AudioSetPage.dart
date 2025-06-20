@@ -148,7 +148,6 @@ class _AudioSetPageState extends BaseWidgetState<AudioSetPage>
             style: TextStyle(
               color: Colors.white,
               fontSize: 14,
-              fontFamily: 'Mont',
             ),
           ),
           SizedBox(height: 20),
@@ -194,7 +193,6 @@ class _AudioSetPageState extends BaseWidgetState<AudioSetPage>
             style: TextStyle(
               color: Colors.white,
               fontSize: 14,
-              fontFamily: 'Mont',
             ),
           ),
           SizedBox(height: 20),
@@ -227,7 +225,6 @@ class _AudioSetPageState extends BaseWidgetState<AudioSetPage>
             style: TextStyle(
               color: Colors.white,
               fontSize: 14,
-              fontFamily: 'Mont',
             ),
           ),
           SizedBox(height: 20),
@@ -261,7 +258,6 @@ class _AudioSetPageState extends BaseWidgetState<AudioSetPage>
               style: TextStyle(
                 fontSize: 14,
                 color: Colors.white,
-                fontFamily: 'Mont',
               ),
             )
           ],
@@ -301,7 +297,6 @@ class _AudioSetPageState extends BaseWidgetState<AudioSetPage>
               style: TextStyle(
                 fontSize: 12,
                 color: Colors.white,
-                fontFamily: 'Mont',
               ),
             )
           ],
@@ -359,7 +354,6 @@ class _AudioSetPageState extends BaseWidgetState<AudioSetPage>
               style: TextStyle(
                 fontSize: 12,
                 color: Colors.white,
-                fontFamily: 'Mont',
               ),
             )
           ],
@@ -388,7 +382,6 @@ class _AudioSetPageState extends BaseWidgetState<AudioSetPage>
                   style: TextStyle(
                     fontSize: 14,
                     color: Colors.white,
-                    fontFamily: 'Mont',
                   ),
                 ),
                 SizedBox(height: 10),
@@ -490,7 +483,6 @@ class _AudioSetPageState extends BaseWidgetState<AudioSetPage>
                   style: TextStyle(
                     fontSize: 14,
                     color: Colors.white,
-                    fontFamily: 'Mont',
                   ),
                 ),
                 SizedBox(height: 10),

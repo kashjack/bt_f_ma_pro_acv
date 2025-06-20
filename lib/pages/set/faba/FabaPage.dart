@@ -352,7 +352,6 @@ class _FabaPageState extends BaseWidgetState<FabaPage>
                 item.leftText,
                 style: TextStyle(
                   color: Colors.white,
-                  fontFamily: 'Mont',
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -374,7 +373,6 @@ class _FabaPageState extends BaseWidgetState<FabaPage>
                             "-15",
                             style: TextStyle(
                               color: Colors.white,
-                              fontFamily: 'Mont',
                             ),
                           ),
                         ),
@@ -385,7 +383,6 @@ class _FabaPageState extends BaseWidgetState<FabaPage>
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               color: Colors.white,
-                              fontFamily: 'Mont',
                             ),
                           ),
                         ),
@@ -396,7 +393,6 @@ class _FabaPageState extends BaseWidgetState<FabaPage>
                             textAlign: TextAlign.right,
                             style: TextStyle(
                               color: Colors.white,
-                              fontFamily: 'Mont',
                             ),
                           ),
                         ),
@@ -441,7 +437,6 @@ class _FabaPageState extends BaseWidgetState<FabaPage>
                 "${(item.id == 1 ? -JKSetting.instance.faderProgress : -JKSetting.instance.balanceProgress)}",
                 style: TextStyle(
                   color: Colors.white,
-                  fontFamily: 'Mont',
                 ),
                 textAlign: TextAlign.center,
               ),

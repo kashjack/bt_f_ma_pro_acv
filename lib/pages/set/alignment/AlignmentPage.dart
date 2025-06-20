@@ -363,7 +363,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: isPortraitCache ? 12 : 10,
-                  fontFamily: 'Mont',
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -372,7 +371,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: isPortraitCache ? 12 : 10,
-                  fontFamily: 'Mont',
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -408,7 +406,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: isPortraitCache ? 12 : 10,
-                  fontFamily: 'Mont',
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -427,7 +424,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: isPortraitCache ? 12 : 10,
-                      fontFamily: 'Mont',
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -436,7 +432,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: isPortraitCache ? 12 : 10,
-                      fontFamily: 'Mont',
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -476,7 +471,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: isPortraitCache ? 12 : 10,
-                  fontFamily: 'Mont',
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -497,7 +491,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: isPortraitCache ? 12 : 10,
-                      fontFamily: 'Mont',
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -506,7 +499,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: isPortraitCache ? 12 : 10,
-                      fontFamily: 'Mont',
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -544,7 +536,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: isPortraitCache ? 12 : 10,
-                  fontFamily: 'Mont',
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -563,7 +554,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: isPortraitCache ? 12 : 10,
-                      fontFamily: 'Mont',
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -572,7 +562,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: isPortraitCache ? 12 : 10,
-                      fontFamily: 'Mont',
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -612,7 +601,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: isPortraitCache ? 12 : 10,
-                  fontFamily: 'Mont',
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -634,7 +622,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
             style: TextStyle(
               fontSize: isPortraitCache ? 14 : 10,
               color: Colors.white,
-              fontFamily: 'Mont',
               fontWeight: FontWeight.bold,
             ),
           ),
@@ -694,7 +681,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: isPortraitCache ? 12 : 10,
-                        fontFamily: 'Mont',
                         fontWeight: FontWeight.bold,
                       ),
                     ),
@@ -704,7 +690,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: isPortraitCache ? 12 : 10,
-                        fontFamily: 'Mont',
                         fontWeight: FontWeight.bold,
                       ),
                     ),
@@ -768,7 +753,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
             style: TextStyle(
               fontSize: isPortraitCache ? 14 : 10,
               color: Colors.white,
-              fontFamily: 'Mont',
               fontWeight: FontWeight.bold,
             ),
           ),
@@ -812,7 +796,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: isPortraitCache ? 12 : 10,
-                    fontFamily: 'Mont',
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -867,7 +850,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
       child: Text(
         S.current.Reset,
         style: TextStyle(
-          fontFamily: 'Mont',
           fontWeight: FontWeight.bold,
           color: Colors.white,
         ),
@@ -894,7 +876,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
                 S.current.Position,
                 textAlign: TextAlign.right,
                 style: TextStyle(
-                  fontFamily: 'Mont',
                   color: Colors.white,
                 ),
               ),
@@ -918,7 +899,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
                 JKSetting.instance
                     .alignmentModes[JKSetting.instance.alignmentPosition],
                 style: TextStyle(
-                  fontFamily: 'Mont',
                   fontSize: 11,
                   color: Colors.white,
                 ),
@@ -948,7 +928,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
                 'Positonin',
                 textAlign: TextAlign.right,
                 style: TextStyle(
-                  fontFamily: 'Mont',
                   color: Colors.white,
                 ),
               ),
@@ -975,7 +954,6 @@ class _AlignmentPageState extends BaseWidgetState<AlignmentPage>
                     JKSetting.instance
                         .alignmentModes[JKSetting.instance.alignmentPosition],
                     style: TextStyle(
-                      fontFamily: 'Mont',
                       fontSize: 11,
                       color: Colors.white,
                     ),
