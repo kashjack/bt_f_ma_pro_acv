@@ -172,12 +172,12 @@ abstract class BaseWidgetState<T extends BaseWidget> extends State<T>
 
   Widget initTopView(String headTitle) {
     return Container(
-      height: 50,
+      height: JKSize.instance.isPortrait ? 50 : 20,
       alignment: JKSize.instance.isPortrait
           ? Alignment.center
           : Alignment.bottomCenter,
-      padding: EdgeInsets.symmetric(
-          horizontal: JKSize.instance.isPortrait ? 10 : 20),
+      padding:
+          EdgeInsets.symmetric(horizontal: JKSize.instance.isPortrait ? 3 : 20),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [

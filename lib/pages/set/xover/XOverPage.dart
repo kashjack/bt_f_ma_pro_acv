@@ -350,7 +350,7 @@ class _XOverPageState extends BaseWidgetState<XOverPage> {
   }
 
   Widget _initChartsView() {
-    Fluttertoast.showToast(msg: "${this.width}");
+    // Fluttertoast.showToast(msg: "${this.width}");
     return Container(
       child: LineChart(
         px(365),

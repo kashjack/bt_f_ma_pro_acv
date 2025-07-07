@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/generated/l10n.dart';
 import 'package:flutter_app/bluetooth/device_manager.dart';
 import 'package:flutter_app/helper/config/image.dart';
+import 'package:flutter_app/helper/config/size.dart';
 import 'package:flutter_app/route/BasePage.dart';
 import 'package:flutter_blue_plus/flutter_blue_plus.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
@@ -47,7 +48,7 @@ class _ConnectPageState extends BaseWidgetState<ConnectPage> {
 
   Widget initTitleView() {
     return Container(
-      height: 50,
+      height: JKSize.instance.isPortrait ? 50 : 20,
       padding: EdgeInsets.symmetric(horizontal: 15),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,

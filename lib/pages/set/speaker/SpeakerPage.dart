@@ -358,13 +358,18 @@ class _SpeakerPageState extends BaseWidgetState<SpeakerPage>
             margin: EdgeInsets.only(
                 left: 20,
                 right: 20,
-                bottom: JKSize.instance.isPortrait ? 30 : 0),
+                bottom: JKSize.instance.isPortrait ? 40 : 0),
             child: TextButton(
-              child: Text(
-                string,
-                style: TextStyle(
-                  fontSize: 14,
-                  color: Colors.white,
+              child: Container(
+                width: 60,
+                height: 25,
+                alignment: Alignment.center,
+                child: Text(
+                  string,
+                  style: TextStyle(
+                    fontSize: 15,
+                    color: Colors.white,
+                  ),
                 ),
               ),
               style: OutlinedButton.styleFrom(

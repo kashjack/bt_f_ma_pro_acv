@@ -40,6 +40,12 @@ class MyApp extends StatelessWidget {
       navigatorKey: navigatorKey,
       navigatorObservers: [routeObserver],
       title: 'ACV',
+      localeResolutionCallback: (locale, supportedLocales) {
+        if (locale?.languageCode == 'ru') {
+          return const Locale('ru', 'RU');
+        }
+        return const Locale('en', 'US');
+      },
       supportedLocales: S.delegate.supportedLocales,
       localizationsDelegates: [
         GlobalMaterialLocalizations.delegate,

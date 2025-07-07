@@ -56,7 +56,7 @@ class _RadioBtnWrapState extends State<RadioBtnWrap> {
             .map((id, text) => MapEntry(
                 id,
                 Container(
-                  width: JKSize.instance.px * 90,
+                  width: JKSize.instance.px * 100,
                   height: 35,
                   child: ElevatedButton(
                     onPressed: () {
